@@ -4,6 +4,7 @@ Gem::Specification.new do |s|
   s.authors = ["Luca Tironi"]
   s.email = 'luca.tironi@gmail.com'
   s.summary = "Little Spark's Flatstrap (Bootstrap without rounded corners), converted to Sass and ready to drop into Rails or Compass"
+  s.description = "Sass-powered version of Little Spark's Flatstrap, based on the work by Thomas McDonald on https://github.com/thomas-mcdonald/bootstrap-sass"
   s.homepage = "http://github.com/lucatironi/flatstrap-sass"
   s.license = "Apache 2.0"
 
