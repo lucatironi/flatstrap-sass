@@ -16,14 +16,33 @@ gem 'sass-rails', '~> 3.2'
 gem 'flatstrap-sass', '~> 2.3.1.0'
 ```
 
+flatstrap-sass use the [Font Awesome Rails](https://github.com/bokmann/font-awesome-rails) gem to provide the [glyphicons](http://glyphicons.com/) support. Add the gem if you want to use the icons in your projects:
+
+```ruby
+gem 'font-awesome-rails'
+```
+
 `bundle install` and restart your server to make the files available.
 
 #### CSS
 
 In your application.css.scss file:
 
-```css
+```scss
 @import "flatstrap";
+```
+
+If you are using the font-awesome-rails, add also the require or import command to your application.css.scss (more info at the [font-awesome-rails doc](https://github.com/bokmann/font-awesome-rails#usage)):
+
+```css
+/*
+ *= require font-awesome
+ */
+```
+or
+
+```scss
+@import "font-awesome";
 ```
 
 #### Javascripts
